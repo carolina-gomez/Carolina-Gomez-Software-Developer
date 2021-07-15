@@ -1,1 +1,61 @@
 
+ /*
+ background, color, font-family, font-size,
+ height, margin, padding, text-align
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Link Colors */
+a:link    { color: #B26B22;  }
+a:visited { color: #191A1F; }
+a:hover   { color: #E1BFBB; }
+a:active  { color: #B84C66; }
+
+body{
+  background: ghostwhite;
+}
+
+header{
+  background-color: #191A1F;
+  color: ghostwhite;
+  padding: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Futura;
+}
+
+main{
+  font-family: "Montserrat";
+  font-size: 15px;
+  background: ghostwhite;
+  color: #1E1E1E;
+}
+
+footer{
+  background-color: #1E1E1E;
+  color: white;
+  text-align: center;
+}
+
+h2, h3, h4{
+  text-align: center;
+  font-family: Futura;
+  color: #5C677B
+}
+
+ul, ol, a, p{
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+
+picture-frame{
+   margin: 30px;
+   text-align: center;
+}
+
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
