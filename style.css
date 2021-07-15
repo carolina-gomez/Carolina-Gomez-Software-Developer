@@ -24,7 +24,6 @@ main{
   font-size: 15px;
   background: ##f8f8ff;
   color: #1E1E1E;
-  text-align: center;
 }
 
 footer{
@@ -49,6 +48,7 @@ ul, ol, a, p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-align: center;
 }
 
 
